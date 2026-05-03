@@ -1,0 +1,69 @@
+# =========================
+# 🧠 DATASETS (NO subir)
+# =========================
+data/
+*.gz
+*.tar.gz
+*.zip
+
+# FashionMNIST / MNIST
+*images-idx3-ubyte
+*labels-idx1-ubyte
+
+# CIFAR
+cifar-10-python.tar.gz
+
+# =========================
+# ⚙️ RESULTADOS / OUTPUTS
+# =========================
+*.log
+*.out
+*.tmp
+*.cache
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.png
+
+# checkpoints / modelos entrenados
+checkpoints/
+models/
+weights/
+
+# =========================
+# 📊 NOTEBOOK OUTPUTS
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# 🧪 ENTORNOS
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# 🧠 PYTHON
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+
+# =========================
+# 🖥️ SISTEMA
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# 🧾 ARCHIVOS LOCALES
+# =========================
+*.csv
+*.xlsx
+
+# =========================
+# 🔐 CONFIGURACIONES
+# =========================
+.env
